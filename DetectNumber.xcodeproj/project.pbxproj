@@ -13,6 +13,8 @@
 		F53343D22469859F00791E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53343D12469859F00791E4B /* Assets.xcassets */; };
 		F53343D52469859F00791E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53343D42469859F00791E4B /* Preview Assets.xcassets */; };
 		F53343D82469859F00791E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53343D62469859F00791E4B /* LaunchScreen.storyboard */; };
+		F553A408246D4FEF00CAE266 /* NumberDetectorModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F553A407246D4FEF00CAE266 /* NumberDetectorModel.mlmodel */; };
+		F553A40A246E712A00CAE266 /* MnistModel.py in Resources */ = {isa = PBXBuildFile; fileRef = F553A409246E712A00CAE266 /* MnistModel.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F53343D42469859F00791E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F53343D72469859F00791E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53343D92469859F00791E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F553A407246D4FEF00CAE266 /* NumberDetectorModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NumberDetectorModel.mlmodel; sourceTree = "<group>"; };
+		F553A409246E712A00CAE266 /* MnistModel.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MnistModel.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				F53343CB2469859D00791E4B /* AppDelegate.swift */,
 				F53343CD2469859D00791E4B /* SceneDelegate.swift */,
+				F553A409246E712A00CAE266 /* MnistModel.py */,
 				F53343CF2469859D00791E4B /* ContentView.swift */,
 				F53343D12469859F00791E4B /* Assets.xcassets */,
 				F53343D62469859F00791E4B /* LaunchScreen.storyboard */,
+				F553A407246D4FEF00CAE266 /* NumberDetectorModel.mlmodel */,
 				F53343D92469859F00791E4B /* Info.plist */,
 				F53343D32469859F00791E4B /* Preview Content */,
 			);
@@ -135,6 +141,7 @@
 			files = (
 				F53343D82469859F00791E4B /* LaunchScreen.storyboard in Resources */,
 				F53343D52469859F00791E4B /* Preview Assets.xcassets in Resources */,
+				F553A40A246E712A00CAE266 /* MnistModel.py in Resources */,
 				F53343D22469859F00791E4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 				F53343CC2469859D00791E4B /* AppDelegate.swift in Sources */,
 				F53343CE2469859D00791E4B /* SceneDelegate.swift in Sources */,
 				F53343D02469859D00791E4B /* ContentView.swift in Sources */,
+				F553A408246D4FEF00CAE266 /* NumberDetectorModel.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
